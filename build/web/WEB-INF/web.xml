@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>controleur</servlet-name>
+        <servlet-class>Controleur.controleur</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>vue</servlet-name>
+        <servlet-class>Vue.vue</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>connexion</servlet-name>
+        <servlet-class>modele.connexion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>controleur</servlet-name>
+        <url-pattern>/controleur</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>vue</servlet-name>
+        <url-pattern>/vue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>connexion</servlet-name>
+        <url-pattern>/connexion</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>controleur</welcome-file>
+    </welcome-file-list>
+</web-app>

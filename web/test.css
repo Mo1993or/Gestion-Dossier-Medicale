@@ -1,0 +1,298 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 juin 2018, 11:10:03
+    Author     : serignemor
+*/
+
+.contenu{
+    font-family:  "Times new Roman";
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    margin:  30%;
+    
+}
+.conntenu{
+    
+    text-align: left;
+    font-family:  "Times new Roman";
+    font-size: 20px;
+    background-color: gainsboro;
+    color: black;
+    
+    
+}
+.conteenu{
+     text-align: left;
+    font-family:  "Times new Roman";
+    font-size: 20px;
+    background-color: gainsboro;
+    color: black;
+    
+    
+}
+.contenuu{
+    font-family:  "Times new Roman";
+    background-color: white;
+    margin:  100px;
+    
+    
+}
+.bt a{
+    color: black;
+}
+.inf {
+     background-color: blueviolet;
+    color: wheat;
+    margin-left:  10px;
+    font-family: 'Times new Roman';
+    font-size: 19px;
+    font-weight: bold;
+    float: right;
+     position: relative;  
+}
+.bt {
+    color: black;
+    width: 150px;
+    font-family: 'Times new Roman';
+    font-size: 19px;
+    font-weight: bold;
+    float: right;
+     position: relative;  
+}
+.bt :hover{
+     
+    width: 150px;
+    font-family: 'Times new Roman';
+   font-size: 19px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+.Nom{
+    
+    height: 120px;
+    background-color: gainsboro;
+
+}
+.Nomm{
+    padding: 70px;
+   
+    
+   
+
+}
+.uti{
+    font-family: "Times new Roman";
+    text-align: center;
+    border: 4px solid black;
+   border-radius: 4px 4px 4px 4px;
+    margin: 5%;
+    padding: 5%;
+}
+.pro{
+   font-family: "Times new Roman";
+   text-align: center;
+   border: 4px solid black;
+   border-radius: 4px 4px 4px 4px;
+   margin: 5%;
+   padding: 5%; 
+}
+.serv{
+   font-family: "Times new Roman";
+    text-align: center;
+    border: 4px solid black;
+   border-radius: 4px 4px 4px 4px;
+    margin: 5%;
+    padding: 5%;  
+}
+
+.rech{
+     
+     float: right;
+    
+    
+}
+.re{
+   margin: 5px;     
+}
+
+.ass{
+    float: left;
+    width: 10px;
+    
+}
+.tab{
+    font-family: "Times new Roman";
+   padding: 10px;
+   margin: 50px;
+  width: 90%;
+    
+}
+.tabb{
+    font-family: "Times new Roman";
+        margin-left: 40px;
+     margin-right: 50px;
+     
+    
+    
+}
+.lien{
+    
+    border: 50px;
+    border-color: black;
+     background-color: gainsboro;
+     font-family: "Times new Roman";
+      height: 600px;
+     font-size: 25px;
+     width: 240px;
+}
+.lien a{
+   color: black;
+    
+}
+.lien a:hover{
+    color: white;
+     width: 200px;
+    font-family: "Times new Roman";
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blue;
+}
+.linkk{
+     
+     font-family: "Times new Roman";
+      
+       font-size: 19px;
+     
+}
+.linkkd{
+    padding-top: 120px;
+     padding-bottom:  70px;
+   
+     width: 150px;
+     font-family: "Times new Roman";
+      
+       font-size: 19px;
+     
+}
+.linkkdac{
+   
+     width: 150px;
+     font-family: "Times new Roman";
+      
+       font-size: 19px;
+     
+}
+.linkk a:hover{
+    color: white;
+     
+    font-family: "Times new Roman";
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: gray;
+}
+.linkkd a{
+    color: black;
+     
+   
+}
+.linkkd a:hover{
+    color: white;
+     width: 150px;
+    font-family: "Times new Roman";
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blue;
+}
+
+
+
+.bac{
+    background: url("img/Ass2.jpg") no-repeat ;
+    background-size: 100%;
+    padding-top:  95px;
+}
+.bacc{
+   
+    background: url("img/A.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+
+.baccm{
+   
+    background: url("img/d.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.bacca{
+   
+    background: url("img/auth.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.baccp{
+   
+    background: url("img/t.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.acc{
+   
+    background: url("img/accueil.jpg") no-repeat;
+    background-size: 150px;
+    
+}
+.bacp{
+    padding:  50px;
+   
+}
+.bacpac{
+    padding: 130px;    
+}
+.bacpp{
+    padding-bottom: 30px;
+    background-color: beige;
+}
+
+.slide{
+   float: left;
+ 
+    
+}
+.slides{
+   width: calc(1140px*3);
+   animation: glisse 10s infinite;    
+}
+.slider{
+    margin: 0 auto;
+    width: 1140px;
+    height: 400px;
+    overflow: hidden;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-1140px);
+    }
+    60%{
+        transform: translateX(-2280px);
+    }
+     100%{
+        transform: translateX(0);
+    }
+}
